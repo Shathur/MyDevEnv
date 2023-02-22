@@ -23,6 +23,12 @@ Plugin 'tmhedberg/SimpylFold'
 " Jedi AutoCompletion
 Plugin 'davidhalter/jedi-vim'
 
+" Codex
+Plugin 'Shathur/vim_codex'
+
+" JupyterAscending
+Plugin 'untitled-ai/jupyter_ascending.vim'
+
 " SuperTab
 Plugin 'ervandew/supertab'
 
