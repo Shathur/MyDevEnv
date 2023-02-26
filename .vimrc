@@ -26,11 +26,11 @@ Plugin 'davidhalter/jedi-vim'
 " Codex
 Plugin 'Shathur/vim_codex'
 
-" JupyterAscending
-Plugin 'untitled-ai/jupyter_ascending.vim'
-
 " SuperTab
 Plugin 'ervandew/supertab'
+
+" JupyterAscending
+Plugin 'untitled-ai/jupyter_ascending.vim'
 
 " PearTree
 Plugin 'tmsvg/pear-tree'
@@ -141,3 +141,11 @@ let g:slime_target = "tmux"
 let g:slime_python_ipython = 1
 let g:slime_default_config = {"socket_name": "default", "target_pane": "{last}"}
 filetype plugin on
+
+" Jupyter_ascending remappings
+nmap <space><space>n <Plug>JupyterExecute
+nmap <space><space>b o<Esc>o#<space>%%<Esc>o
+
+" Control transparency
+set background=light
+hi Normal guibg=NONE ctermbg=NONE
