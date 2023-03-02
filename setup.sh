@@ -1,8 +1,8 @@
 #! /bin/bash
 
 # first install some necessary packages
-sudo apt-get install libhdf5-dev --y &&
-sudo apt-get install gcc-aarch64-linux-gnu
+sudo apt-get install libhdf5-dev -y &&
+sudo apt-get install gcc-aarch64-linux-gnu -y
 
 cp .vimrc ~/.vimrc
 cp .tmux.conf ~/.tmux.conf
