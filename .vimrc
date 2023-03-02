@@ -8,8 +8,12 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
-" let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+"  let Vundle manage Vundle, required
+"Plugin 'gmarik/Vundle.vim'
+
+" Github removed the original Vundle plugin without any explanation
+" Here we use a fork
+Plugin 'Stratus3D/Vundle.vim'
 
 " add all your plugins here (note older versions of Vundle
 " used Bundle instead of Plugin)
