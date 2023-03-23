@@ -9,11 +9,10 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 "  let Vundle manage Vundle, required
-"Plugin 'gmarik/Vundle.vim'
+"Plugin 'gmarik/Vundle.vim' that was the original one
 
-" Github removed the original Vundle plugin without any explanation
-" Here we use a fork
-Plugin 'Stratus3D/Vundle.vim'
+" it got moved here
+Plugin 'VundleVim/Vundle.vim'
 
 " add all your plugins here (note older versions of Vundle
 " used Bundle instead of Plugin)
@@ -44,6 +43,9 @@ Plugin 'itchyny/lightline.vim'
 
 " NerdTree
 Plugin 'preservim/nerdtree'
+
+" GutenTags
+Plugin 'ludovicchabant/vim-gutentags'
 
 " Check Syntax
 Plugin 'dense-analysis/ale'
@@ -149,6 +151,9 @@ filetype plugin on
 " Jupyter_ascending remappings
 nmap <space><space>n <Plug>JupyterExecute
 nmap <space><space>b o<Esc>o#<space>%%<Esc>o
+
+" ctags
+set tags=./tags,tags;
 
 " Control transparency
 set background=light
