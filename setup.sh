@@ -9,8 +9,7 @@ cp .tmux.conf ~/.tmux.conf
 
 # Github removed the original Vundle repo without any explanation
 # Here we are using a fork instead
-# git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-git clone https://github.com/Stratus3D/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Now from inside vim you need to run the command below
 # :PluginInstall
