@@ -6,3 +6,6 @@ sudo apt upgrade -y &&
 sudo apt-get install libhdf5-dev -y &&
 sudo apt-get install build-essential libssl-dev libffi-dev python3-dev -y &&
 sudo apt-get install gcc-aarch64-linux-gnu -y
+
+# necessary for python
+sudo apt install python3-pip -y
