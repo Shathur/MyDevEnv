@@ -10,3 +10,6 @@ sudo apt-get install gcc-aarch64-linux-gnu -y
 # necessary for python
 sudo apt install python3-pip -y
 sudo apt install python3.10-venv -y
+
+# necessary for vim plugins
+sudo apt install universal-ctags -y
