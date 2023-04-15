@@ -17,3 +17,7 @@ python3 -m jupyter serverextension enable jupyter_ascending --sys-prefix --py
 jupyter nbextension install --py --sys-prefix jupyter_ascending
 jupyter nbextension     enable jupyter_ascending --sys-prefix --py
 jupyter serverextension enable jupyter_ascending --sys-prefix --py
+# optuna
+pip install optuna
+pip install mysqlclient
+pip install mysql-connector-python-rf
