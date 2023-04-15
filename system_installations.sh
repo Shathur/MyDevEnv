@@ -13,3 +13,6 @@ sudo apt install python3.10-venv -y
 
 # necessary for vim plugins
 sudo apt install universal-ctags -y
+
+# necessary for optuna and mysql
+sudo apt-get install libmysqlclient-dev -y
