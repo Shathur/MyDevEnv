@@ -4,6 +4,7 @@
 sudo apt update &&
 sudo apt upgrade -y &&
 sudo apt-get install libhdf5-dev -y &&
+# important for building h5py in aarch64
 sudo apt-get install build-essential libssl-dev libffi-dev python3-dev -y &&
 sudo apt-get install gcc-aarch64-linux-gnu -y
 
